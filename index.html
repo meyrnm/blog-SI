@@ -1,0 +1,327 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <title>Sistem Informasi</title>
+
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+
+        body {
+            margin: 10px 28px;
+            font-family: "Times New Roman", serif;
+            font-size: 14px;
+        }
+
+        .container {
+            border: 1px solid #555;
+        }
+
+        /* HEADER */
+        .header {
+            display: flex;
+            height: 77px;
+            border-bottom: 1px solid #555;
+        }
+
+        .logo {
+            width: 155px;
+            border-right: 1px solid #555;
+            padding: 8px;
+            font-weight: bold;
+            font-size: 13px;
+            display: flex;
+            align-items: center;
+            gap: 8px;
+        }
+
+        .logo img {
+            width: 35px;
+            height: auto;
+        }
+
+        .menu {
+            flex: 1;
+            display: flex;
+            align-items: center;
+            padding: 0 10px;
+        }
+
+        .menu a {
+            text-decoration: none;
+            color: black;
+            font-weight: bold;
+            text-align: center;
+            padding: 9px;
+            border: 1px solid #555;
+            flex: 1;
+        }
+
+        .admisi {
+            width: 150px;
+            border-left: 1px solid #555;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-weight: bold;
+        }
+
+        /* HERO */
+        .hero {
+            text-align: center;
+            padding: 28px 20px;
+            border-bottom: 1px solid #555;
+        }
+
+        .hero h1 {
+            margin: 0 0 18px;
+            font-size: 28px;
+        }
+
+        .hero p {
+            margin: 0 0 15px;
+        }
+
+        .hero h3 {
+            margin: 0;
+        }
+
+        /* ROLE */
+        .roles {
+            display: flex;
+            margin: 10px;
+            border: 1px solid #555;
+        }
+
+        .role {
+            width: 33.33%;
+            text-align: center;
+            padding: 25px 20px;
+            border-right: 1px solid #555;
+        }
+
+        .role:last-child {
+            border-right: none;
+        }
+
+        .role h2 {
+            margin-top: 0;
+            font-size: 23px;
+        }
+
+        .garis-pemisah {
+            border-top: 1px solid #555;
+        }
+
+        /* FOOTER INFO */
+        
+        .footer-info {
+            display: flex;
+            margin: 10px;
+            border: 1px solid #555;
+        }
+
+        .info {
+            padding: 20px 10px;
+            min-height: 255px;
+            border-right: 1px solid #555;
+        }
+
+        .info:last-child {
+            border-right: none;
+        }
+
+        .info1 {
+            width: 50%;
+        }
+
+        .info2 {
+            width: 25%;
+        }
+
+        .info3 {
+            width: 25%;
+        }
+
+        .info h3 {
+            font-size: 15px;
+            margin-top: 0;
+        }
+
+        .info p {
+            line-height: 1.2;
+        }
+
+        .info ul {
+            padding-left: 28px;
+        }
+
+        /* COPYRIGHT */
+        .copyright {
+            border-top: 1px solid #555;
+            padding: 10px;
+            font-weight: bold;
+        }
+
+        .copyright small {
+            font-weight: normal;
+        }
+    </style>
+</head>
+
+<body>
+
+<div class="container">
+
+    <!-- HEADER -->
+    <div class="header">
+
+        <div class="logo">
+            <img src="logotelkom.png" alt="Logo ITTelkom Surabaya">
+            <div>
+                SISTEM<br>
+                INFORMASI<br>
+                <small>ITTelkom Surabaya</small>
+            </div>
+        </div>
+
+        <div class="menu">
+            <a href="#">Tentang Kami</a>
+            <a href="#">Akademik</a>
+            <a href="#">Dosen & Staf</a>
+            <a href="#">Kerja Sama</a>
+            <a href="#">Blog</a>
+        </div>
+
+        <div class="admisi">
+            <a href="#">Admisi</a>
+        </div>
+
+    </div>
+
+
+    <!-- HERO -->
+    <div class="hero">
+        <h1>Excellent in Connecting Systems</h1>
+
+        <p>
+            Sistem Informasi (SI) adalah kombinasi dari teknologi informasi dan
+            aktivitas manusia yang menggunakan teknologi tersebut untuk mendukung
+            operasi dan manajemen.
+        </p>
+
+        <h3>Pelajari Lebih Lanjut</h3>
+    </div>
+
+
+    <!-- ROLE -->
+    <div class="roles">
+
+        <div class="role">
+            <h2>Project Manager</h2>
+            <p>
+                Berperan untuk mengkoordinir dan mengelola sumber daya manusia
+                di dalam pembangunan sistem informasi.
+            </p>
+        </div>
+
+        <div class="role">
+            <h2>IS Engineer</h2>
+            <p>
+                Berperan untuk mengembangkan sebuah perangkat lunak berupa
+                aplikasi (web, game, desktop) dan didukung basis data yang
+                berguna meningkatkan performa sebuah aplikasi.
+            </p>
+        </div>
+
+        <div class="role">
+            <h2>Business & System Analyst</h2>
+            <p>
+                Berperan melakukan review, analisis, dan mengevaluasi
+                permasalahan bisnis, proses bisnis, fungsi (struktur organisasi), sistem informasi
+                yang digunakan dan data dasar informasi.
+            </p>
+        </div>
+
+    </div>
+
+    <div class="garis-pemisah"></div>
+
+    <!-- FOOTER INFO -->
+    <div class="footer-info">
+
+        <div class="info info1">
+            <h3>Sistem Informasi</h3>
+
+            <p>
+                Situs resmi Program Studi Sistem Informasi Institut Teknologi
+                Telkom Surabaya. Website ini diperuntukkan sebagai media
+                komunikasi internal & eksternal bagi mahasiswa, dosen, dan
+                karyawan.
+            </p>
+
+            <p>
+                Program Studi Sistem Informasi sudah ada sejak berdirinya
+                Institut Teknologi Telkom Surabaya, berdasarkan Keputusan
+                Menteri Riset, Teknologi, dan Pendidikan Tinggi no. 733 / KPT / I / 2018.
+            </p>
+
+            <p>
+                Website ini menyajikan informasi tentang Program Studi Sistem
+                Informasi, profil, visi dan misi, struktur organisasi,
+                akademisi, kurikulum, dosen, penelitian dan pengabdian kepada masyarakat.
+            </p>
+        </div>
+
+
+        <div class="info info2">
+            <h3>Tautan Penting</h3>
+
+            <ul>
+                <li>Mahasiswa & Alumni</li>
+                <li>Kerja Sama</li>
+                <li>Proyek</li>
+            </ul>
+
+            <h3>Tautan Bermanfaat</h3>
+
+            <ul>
+                <li>Telkom Indonesia</li>
+                <li>Yayasan Pendidikan Telkom</li>
+                <li>ITTelkom Surabaya</li>
+                <li>Website SMB</li>
+            </ul>
+        </div>
+
+
+        <div class="info info3">
+            <h3>Info Kontak</h3>
+
+            <ul>
+                <li><b>Alamat:</b> Jl. Ketintang No.156, Surabaya, Jawa Timur 60231</li>
+                <li><b>Telepon:</b> +62 31 8280800</li>
+                <li><b>Email:</b> is@ittelkom-sby.ac.id</li>
+            </ul>
+
+            <h3>Media Sosial</h3>
+
+            <ul>
+                <li>Instagram</li>
+            </ul>
+        </div>
+
+    </div>
+
+    
+    <!-- COPYRIGHT -->
+    <div class="copyright">
+        Copyright © 2022 Information Systems<br>
+        <small>Build with ♥ by CODER Team</small>
+    </div>
+
+</div>
+
+</body>
+</html>
